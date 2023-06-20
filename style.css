@@ -1,3 +1,73 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: #F0F1F4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+}
+
+label {
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+input, select {
+  border: 2px solid #ECEDF2;
+  border-radius: 12px;
+  padding: 13px 16px;
+}
+
+.red-text {
+  color: #F05F5D;
+}
+
+.form-title {
+  text-align: left;
+  font-size: 24px;
+  margin: 0;
+  line-height: 30px;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 24px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 36px 32px;
+}
+
+.button {
+  border-radius: 12px;
+  background-color: #F05F5D;
+  color: white;
+  padding: 18px 0;
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+.form-checkbox {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.form-checkbox>label {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 53px;
 }

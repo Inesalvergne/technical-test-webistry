@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webistry x LeWagon</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<main>
-    <h1>Good luck!</h1>
-    <div></div>
-</main>
-<script src="main.js"></script>
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Webistry x LeWagon</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main>
+      <div class="logos">
+        <img src="images/webistry.svg" alt="webistry logo">
+        <img src="images/lewagon.svg" alt="le wagon logo">
+      </div>
+
+      <h1><span class="red-text">Level up</span> your coding<br>skills with Webistry</h1>
+
+      <div class="form-container">
+        <h3 class="form-title">Let's get started by knowing<br>more about you.</h3>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter your name">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Enter your email">
+          <label for="languages">What's your favorite coding language?</label>
+          <select name="languages" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Python">Python</option>
+            <option value="Go">Go</option>
+          </select>
+          <div class="form-checkbox">
+            <input type="checkbox" name="accurate">
+            <label for="accurate"> The information provided above is accurate</label>
+          </div>
+          <input type="submit" value="Level Up" class="button">
+        </form>
+      </div>
+    </main>
+  <script src="main.js"></script>
+  </body>
 </html>
